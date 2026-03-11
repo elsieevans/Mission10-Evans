@@ -1,0 +1,29 @@
+.app {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+}
+
+.bowler-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bowler-table th,
+.bowler-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.bowler-table th {
+  background-color: #f3f3f3;
+}
