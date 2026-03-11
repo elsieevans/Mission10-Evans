@@ -4,6 +4,7 @@ namespace BowlingApi.Models;
 
 public partial class BowlingLeagueContext : DbContext
 {
+    // parameterless constructor is here mostly for tooling; the app uses the one below
     public BowlingLeagueContext()
     {
     }
@@ -13,6 +14,7 @@ public partial class BowlingLeagueContext : DbContext
     {
     }
 
+    // main tables I care about for this mission
     public DbSet<Bowler> Bowlers { get; set; } = null!;
     public DbSet<Team> Teams { get; set; } = null!;
 
@@ -39,6 +41,7 @@ public partial class BowlingLeagueContext : DbContext
             entity.Property(e => e.BowlerZip).HasMaxLength(10);
             entity.Property(e => e.BowlerPhoneNumber).HasMaxLength(20);
 
+            // each bowler belongs to one team (TeamId foreign key)
             entity.HasOne(e => e.Team)
                 .WithMany(t => t.Bowlers)
                 .HasForeignKey(e => e.TeamId);

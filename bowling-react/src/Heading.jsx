@@ -1,3 +1,4 @@
+// small header component so the page explains what you're looking at
 function Heading() {
   return (
     <header>

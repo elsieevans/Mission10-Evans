@@ -1,3 +1,4 @@
+// table for displaying all of the bowler info the assignment asks for
 function BowlerTable({ bowlers }) {
   return (
     <table className="bowler-table">
