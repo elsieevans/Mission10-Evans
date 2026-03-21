@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "WvIvGEQJJkE=",
+  "success": true,
+  "projectFilePath": "/Users/elsieevans/413/bezoz/BookstoreApi/BookstoreApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/elsieevans/413/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.data.sqlite.core/10.0.5/microsoft.data.sqlite.core.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore/10.0.5/microsoft.entityframeworkcore.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.5/microsoft.entityframeworkcore.abstractions.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.5/microsoft.entityframeworkcore.analyzers.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.5/microsoft.entityframeworkcore.relational.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore.sqlite/10.0.5/microsoft.entityframeworkcore.sqlite.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/10.0.5/microsoft.entityframeworkcore.sqlite.core.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.extensions.dependencymodel/10.0.5/microsoft.extensions.dependencymodel.10.0.5.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.11/sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "/Users/elsieevans/413/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.11/sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "/Users/elsieevans/413/bezoz/BookstoreApi/BookstoreApi.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/elsieevans/413/bezoz/BookstoreApi/BookstoreApi.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
