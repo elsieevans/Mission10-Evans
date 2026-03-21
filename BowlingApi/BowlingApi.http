@@ -1,6 +1,0 @@
-@BowlingApi_HostAddress = http://localhost:5120
-
-GET {{BowlingApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
