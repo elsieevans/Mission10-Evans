@@ -3,10 +3,11 @@ BowlingApi/obj/
 bowling-react/node_modules/
 
 # Mission 11 (only keep source + DB in submission)
-bezoz/BookstoreApi/bin/
-bezoz/BookstoreApi/obj/
-bezoz/bookstore-react/node_modules/
-bezoz/bookstore-react/dist/
+bezoz/backend/bin/
+bezoz/backend/obj/
+bezoz/backend/publish/
+bezoz/frontend/node_modules/
+bezoz/frontend/dist/
 
 # Local NuGet cache (do not submit)
 .nuget/

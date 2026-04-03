@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# React / Vite
+bookstore-react/node_modules/
+bookstore-react/dist/
+
+# .NET
+BookstoreApi/bin/
+BookstoreApi/obj/
+*.user
+*.userosscache
+.vs/

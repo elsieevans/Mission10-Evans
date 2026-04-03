@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/27701e43-e1fb-4831-bc84-71be1c5cd540/resourceGroups/appsvc_windows_francecentral/providers/Microsoft.Web/sites/BookstoreProject-Evans-Backend",
+    "appService.deploySubpath": "bezoz/backend/publish"
+}

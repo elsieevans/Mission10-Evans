@@ -1,0 +1,16 @@
+/* App shell — main layout width comes from Bootstrap .container inside App.jsx */
+.app {
+  min-height: 100vh;
+}
+
+.page-header {
+  margin-bottom: 1.25rem;
+}
+
+.table-wrap {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+

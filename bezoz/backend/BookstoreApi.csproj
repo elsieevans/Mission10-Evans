@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Always emit to backend/publish (flat). Prevents nested publish/publish when -o is relative to the wrong cwd. -->
+    <PublishDir>$(MSBuildProjectDirectory)\publish\</PublishDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.5" />
+  </ItemGroup>
+
+  <!-- Professor / Azure: SQLite must be copied to publish output or the site returns 500 (DB not found). -->
+  <ItemGroup>
+    <Content Include="..\Bookstore.sqlite">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <Link>Bookstore.sqlite</Link>
+    </Content>
+  </ItemGroup>
+
+</Project>
